@@ -1,6 +1,30 @@
-# 👋 Hi, I’m @deisantix
+```js
 
-- :rainbow: I like cartoons, series, writing and coding.
-- 🌱 I’m currently learning Python3, and look foward to learn languages like Java, C, JS, HTLM and even others subjects like design... IDK.
-- :computer: I’m not looking to collaborate on anything at the moment, since I don't quite know what to do yet.
-- 📫 How to reach me: Don't :)
+const deisantix = {
+    name: ['Ytalo', 'Ethan'],
+    pronouns: ['he/him', 'ele/dele'],
+    from: Brazil,
+    
+    languages: [Python, Java, HTML, CSS, JavaScript],
+    learning: [VueJs, Sass],
+    
+    hobbies: [cartoons, movies, books, walking],
+    sports: null,
+    
+    speak: function() {
+        return 'portuguese' || 'english';
+    },
+    procrastinate: function() {
+        alert("Just one more minute...");
+    },
+    study: function() {
+        alert("I'm studying" + this.learning);
+    }
+}
+
+if(Date.time > 0) {
+    deisantix.procrastinate();
+} else {
+    deisantix.study();
+}
+```
