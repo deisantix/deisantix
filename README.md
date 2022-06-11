@@ -8,7 +8,7 @@ const deisantix = {
     from: Brazil,
     
     languages: [Python, Java, HTML, CSS, JavaScript],
-    learning: [VueJs, Sass, SQL, Delphi],
+    learning: [VueJs, Sass, MySql, Delphi],
     
     hobbies: [cartoons, movies, books, walking],
     sports: null,
